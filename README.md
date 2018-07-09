@@ -1,4 +1,4 @@
-Chain Of Responsibility Pattern is the origin of middleware pipeline
+The Chain Of Responsibility Pattern is the origin of the "Middleware Pipeline"
 =============================================
 
 ## DESCRIPTION
