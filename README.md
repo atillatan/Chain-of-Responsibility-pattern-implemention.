@@ -21,8 +21,9 @@ public class Program
         app.Use(new LogManager())
            .Use(new AuthorizationManager())
            .UseCacheManager();
+           //.. you can add more middleware here
 
-        //Run 1
+        // the "data" string passes through every middleware
         app.Run("data");
     }
 }
